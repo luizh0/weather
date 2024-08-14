@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://www.flaticon.com/">
+    <link rel="short icon" href="src/nublado.png">
+</head>
+<body>
+    <div class="conteudo"><div class="barra">
+        <form id="search"><div class="mid">
+            <img src="src/procurar.png">
+            <input type="search" name="city_name" id="city_name" placeholder="Buscar cidade"></div>
+            <button type="submit">
+            </button>
+        </form></div>
+        <div class="cidade" id="title">
+            Cidade, País
+        </div>
+
+        <div class="temperatura">
+            <img src="src/nuvem-de-sol.png">
+            <p id="temp_value">----</p>
+        </div>
+<div class="elementos">
+<div class="top">     
+        <div class="max">
+            <h2 class="legenda">Temp. máx</h2>
+            <div class="meio">
+            <img src="src/quente.png">
+            <p id="temp_max">--</p></div>
+        </div>
+
+        <div class="min">
+            <h2 class="legenda">Temp. mín</h2>
+            <div class="meio">
+            <img src="src/resfriado.png">
+            <p id="temp_min">--</p></div>
+        </div>
+</div>  
+
+<div class="bottom">     
+    <div class="vento">
+        <h2 class="legenda">Vento</h2>
+        <div class="meio">
+        <img src="src/vento.png">
+        <p id="wind">--</p></div>
+    </div>
+
+    <div class="umidade">
+        <h2 class="legenda">Umidade</h2>
+        <div class="meio">
+        <img src="src/pingo-dagua.png">
+        <p id="humidity">--</p></div>
+    </div>
+  </div>  
+ </div>
+</div>   
+</body>
+<script src="script.js"></script>
+</html>
